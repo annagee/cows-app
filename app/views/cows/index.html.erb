@@ -1,0 +1,15 @@
+
+
+
+<div class="list-group">
+<% @cow.each do |cow| %>
+  <%= cow.breed %>
+  <div class="list-group-item">
+   <ul>
+     <li><%= link_to(cow.breed, cow_path(cow.id)) %></li>
+     <li><%= link_to('DELETE', cow_path(cow.id), method: :delete)%></li>
+     <li><%= link_to('EDIT', edit_cow_path(cow.id)) %></li>
+    </ul>
+   </div>  
+  <%end%>
+</div>  

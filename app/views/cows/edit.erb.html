@@ -1,0 +1,18 @@
+
+
+
+<%= form_for @cow do |f| %>
+  <%= f.label :breed %>
+  <%= f.text_field :breed %>
+
+  <%= f.label :image %>
+  <%= f.text_field :image %>
+
+  <%= f.label :orgin %>
+  <%= f.text_field :orgin %>
+  
+  <%= f.label :use %>
+  <%= f.text_field :use %>
+
+  <%= f.submit 'Edit cow!' %>
+<% end %>

@@ -1,0 +1,48 @@
+body {
+  background-image: url('http://alicewalkersgarden.com/wp-content/uploads/Broadway-Grass2.jpg');
+   font-family: 'Sarina', cursive;
+
+
+}
+
+header { 
+   text-align: center;
+   font-size: 40px;
+}
+
+ nav{
+    border: white;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 20px;
+    padding-top: 20px
+}
+
+form {
+  text-align: center;
+  font-size: 30px;
+}
+
+.list-group{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+}
+ .cow-info{
+  font-size: 55px;
+  font-style: bold;
+  position:relative;
+  text-shadow: 2px 2px 8px #FF0000;
+
+ }
+/*nav {
+display: inline-block;
+    text-align: center;
+    position: relative;
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 20px;
+    padding-top: 20px
+  }*/
